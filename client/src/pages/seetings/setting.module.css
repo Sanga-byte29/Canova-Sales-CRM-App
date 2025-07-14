@@ -1,0 +1,43 @@
+.settingsContainer {
+  padding: 20px;
+}
+
+.settingsCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formGroup input {
+  padding: 10px;
+  border: 1px dashed #0055ff;
+  border-radius: 5px;
+}
+
+.saveButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.saveButton {
+  background-color: #d9d9d9;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
